@@ -1,0 +1,8 @@
+name: 'Terraform Destroy'
+on:
+  workflow_dispatch:
+    inputs:
+      infra_env:
+        description: 'Environment of infrastructure'
+        required: true
+        default: 'test'
